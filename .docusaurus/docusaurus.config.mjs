@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "E:\\humonoid_robotics\\sidebars.js",
-          "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/",
+          "editUrl": "https://github.com/Mehwish-Malik/AI-Robotics-Book.git",
           "routeBasePath": "docs"
         },
         "blog": false,
