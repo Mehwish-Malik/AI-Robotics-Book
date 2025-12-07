@@ -10,8 +10,10 @@ const config = {
   url: 'https://humanoid-robotics-book.com',
   baseUrl: '/',
 
-  organizationName: 'humanoid-robotics',
-  projectName: 'humanoid-robotics-book',
+  organizationName: 'Mehwish-Malik',
+  projectName: 'AI-Robotics-Book',
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,7 +30,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Mehwish-Malik/AI-Robotics-Book.git',
+          editUrl: 'https://github.com/Mehwish-Malik/AI-Robotics-Book/tree/main/',
           routeBasePath: 'docs',
         },
         blog: false,
@@ -67,7 +69,7 @@ const config = {
           title: 'Documentation',
           items: [
             { label: 'Introduction', to: '/docs/intro' },
-            { label: 'Modules', to: '/docs/category/fundamentals' },
+            { label: 'Modules', to: '/docs/modules/module-1-fundamentals/chapter-1-introduction' },
           ],
         },
         {

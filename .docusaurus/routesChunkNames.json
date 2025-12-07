@@ -1,164 +1,164 @@
 {
-  "/404-da3": {
+  "/404-5c5": {
     "__comp": "6bb41b40",
     "__context": {
-      "plugin": "867a60d9"
+      "plugin": "a7456010"
     },
     "config": "5e9f5e1a"
   },
-  "/docs-d2c": {
+  "/docs-fb4": {
     "__comp": "5e95c892",
     "__context": {
-      "plugin": "e500093a"
+      "plugin": "aba21aa0"
     }
   },
-  "/docs-99a": {
+  "/docs-5ec": {
     "__comp": "a7bd4aaa",
-    "version": "935f2afb"
+    "__props": "0058b4c6"
   },
-  "/docs-08f": {
+  "/docs-fc8": {
     "__comp": "a94703ab"
   },
-  "/docs/assets/diagrams/placeholder-90f": {
+  "/docs/assets/diagrams/placeholder-3db": {
     "__comp": "17896441",
     "content": "7770062d"
   },
-  "/docs/assets/images/placeholder-9aa": {
+  "/docs/assets/images/placeholder-475": {
     "__comp": "17896441",
     "content": "4a2e9a80"
   },
-  "/docs/case-studies/boston-dynamics-atlas-5be": {
+  "/docs/case-studies/boston-dynamics-atlas-65d": {
     "__comp": "17896441",
     "content": "fffef4ac"
   },
-  "/docs/case-studies/figure-ai-3be": {
+  "/docs/case-studies/figure-ai-cfa": {
     "__comp": "17896441",
     "content": "a4048f7a"
   },
-  "/docs/case-studies/tesla-optimus-db8": {
+  "/docs/case-studies/tesla-optimus-bc2": {
     "__comp": "17896441",
     "content": "837dcb5a"
   },
-  "/docs/getting-started/installation-490": {
+  "/docs/getting-started/installation-267": {
     "__comp": "17896441",
     "content": "54f44165"
   },
-  "/docs/getting-started/overview-8dc": {
+  "/docs/getting-started/overview-3b4": {
     "__comp": "17896441",
     "content": "7a96ca3d"
   },
-  "/docs/getting-started/quickstart-4c6": {
+  "/docs/getting-started/quickstart-1cd": {
     "__comp": "17896441",
     "content": "fbd7a87c"
   },
-  "/docs/intro-aed": {
+  "/docs/intro-61d": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/docs/modules/module-1-fundamentals/chapter-1-introduction-7b6": {
+  "/docs/modules/module-1-fundamentals/chapter-1-introduction-611": {
     "__comp": "17896441",
     "content": "a32b76c5"
   },
-  "/docs/modules/module-1-fundamentals/chapter-2-history-1bc": {
+  "/docs/modules/module-1-fundamentals/chapter-2-history-5bf": {
     "__comp": "17896441",
     "content": "5a56c902"
   },
-  "/docs/modules/module-1-fundamentals/chapter-3-basic-concepts-45e": {
+  "/docs/modules/module-1-fundamentals/chapter-3-basic-concepts-6c1": {
     "__comp": "17896441",
     "content": "68f245c3"
   },
-  "/docs/modules/module-2-hardware/chapter-4-actuators-3ac": {
+  "/docs/modules/module-2-hardware/chapter-4-actuators-6b4": {
     "__comp": "17896441",
     "content": "f3057e52"
   },
-  "/docs/modules/module-2-hardware/chapter-5-sensors-fdf": {
+  "/docs/modules/module-2-hardware/chapter-5-sensors-44d": {
     "__comp": "17896441",
     "content": "a84fd58d"
   },
-  "/docs/modules/module-2-hardware/chapter-6-control-systems-9fc": {
+  "/docs/modules/module-2-hardware/chapter-6-control-systems-a4d": {
     "__comp": "17896441",
     "content": "71c32ba7"
   },
-  "/docs/modules/module-3-control/chapter-7-motion-planning-510": {
+  "/docs/modules/module-3-control/chapter-7-motion-planning-d11": {
     "__comp": "17896441",
     "content": "64726adb"
   },
-  "/docs/modules/module-3-control/chapter-8-locomotion-7a4": {
+  "/docs/modules/module-3-control/chapter-8-locomotion-8c0": {
     "__comp": "17896441",
     "content": "32b1d327"
   },
-  "/docs/modules/module-3-control/chapter-9-balance-ed7": {
+  "/docs/modules/module-3-control/chapter-9-balance-1d3": {
     "__comp": "17896441",
     "content": "77d14c22"
   },
-  "/docs/modules/module-4-ai/chapter-10-perception-c54": {
+  "/docs/modules/module-4-ai/chapter-10-perception-acd": {
     "__comp": "17896441",
     "content": "70d00566"
   },
-  "/docs/modules/module-4-ai/chapter-11-learning-c4d": {
+  "/docs/modules/module-4-ai/chapter-11-learning-b9a": {
     "__comp": "17896441",
     "content": "93c45d2f"
   },
-  "/docs/modules/module-4-ai/chapter-12-decision-making-006": {
+  "/docs/modules/module-4-ai/chapter-12-decision-making-556": {
     "__comp": "17896441",
     "content": "e52d2e2e"
   },
-  "/docs/modules/module-5-applications/chapter-13-simulation-74e": {
+  "/docs/modules/module-5-applications/chapter-13-simulation-7e6": {
     "__comp": "17896441",
     "content": "42e387dd"
   },
-  "/docs/modules/module-5-applications/chapter-14-real-world-deployment-c8f": {
+  "/docs/modules/module-5-applications/chapter-14-real-world-deployment-a02": {
     "__comp": "17896441",
     "content": "24b766c9"
   },
-  "/docs/modules/module-5-applications/chapter-15-future-directions-32f": {
+  "/docs/modules/module-5-applications/chapter-15-future-directions-ccb": {
     "__comp": "17896441",
     "content": "edc73b62"
   },
-  "/docs/modules/module-5-applications/chapter-16-case-studies-2a2": {
+  "/docs/modules/module-5-applications/chapter-16-case-studies-4f5": {
     "__comp": "17896441",
     "content": "645072d4"
   },
-  "/docs/reference/api-reference/-6f9": {
+  "/docs/reference/api-reference-955": {
     "__comp": "17896441",
     "content": "86b5e137"
   },
-  "/docs/reference/code-examples/-215": {
+  "/docs/reference/code-examples-201": {
     "__comp": "17896441",
     "content": "4e5683e1"
   },
-  "/docs/reference/hardware-specs/-b97": {
+  "/docs/reference/hardware-specs-559": {
     "__comp": "17896441",
     "content": "5db8c9f9"
   },
-  "/docs/tutorials/basic-control-examples/-c97": {
+  "/docs/tutorials/basic-control-examples-b4a": {
     "__comp": "17896441",
     "content": "2a8cd8cd"
   },
-  "/docs/tutorials/basic-control-examples/balance-control-bd4": {
+  "/docs/tutorials/basic-control-examples/balance-control-78f": {
     "__comp": "17896441",
     "content": "9f82476a"
   },
-  "/docs/tutorials/basic-control-examples/joint-control-basics-19f": {
+  "/docs/tutorials/basic-control-examples/joint-control-basics-1ce": {
     "__comp": "17896441",
     "content": "91fdf263"
   },
-  "/docs/tutorials/basic-control-examples/simple-locomotion-dd1": {
+  "/docs/tutorials/basic-control-examples/simple-locomotion-412": {
     "__comp": "17896441",
     "content": "96a7d178"
   },
-  "/docs/tutorials/deployment-guides/-3fd": {
+  "/docs/tutorials/deployment-guides-2ae": {
     "__comp": "17896441",
     "content": "d1f98b36"
   },
-  "/docs/tutorials/simulation-workflows/-4e7": {
+  "/docs/tutorials/simulation-workflows-f82": {
     "__comp": "17896441",
     "content": "bf843361"
   },
-  "/-876": {
+  "/-2e1": {
     "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "867a60d9"
+      "plugin": "a7456010"
     },
     "config": "5e9f5e1a"
   }

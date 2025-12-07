@@ -9,10 +9,11 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://humanoid-robotics-book.com",
   "baseUrl": "/",
-  "organizationName": "humanoid-robotics",
-  "projectName": "humanoid-robotics-book",
+  "organizationName": "Mehwish-Malik",
+  "projectName": "AI-Robotics-Book",
+  "trailingSlash": false,
+  "deploymentBranch": "gh-pages",
   "onBrokenLinks": "throw",
-  "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -27,7 +28,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "E:\\humonoid_robotics\\sidebars.js",
-          "editUrl": "https://github.com/Mehwish-Malik/AI-Robotics-Book.git",
+          "editUrl": "https://github.com/Mehwish-Malik/AI-Robotics-Book/tree/main/",
           "routeBasePath": "docs"
         },
         "blog": false,
@@ -70,7 +71,7 @@ export default {
             },
             {
               "label": "Modules",
-              "to": "/docs/category/fundamentals"
+              "to": "/docs/modules/module-1-fundamentals/chapter-1-introduction"
             }
           ]
         },
@@ -327,6 +328,11 @@ export default {
         "autoCollapseCategories": false
       }
     },
+    "blog": {
+      "sidebar": {
+        "groupByYear": true
+      }
+    },
     "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
@@ -334,6 +340,27 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "future": {
+    "v4": {
+      "removeLegacyPostBuildHeadAttribute": false,
+      "useCssCascadeLayers": false
+    },
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
+    },
+    "experimental_storage": {
+      "type": "localStorage",
+      "namespace": false
+    },
+    "experimental_router": "browser"
+  },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
@@ -351,10 +378,18 @@ export default {
   "markdown": {
     "format": "mdx",
     "mermaid": false,
+    "emoji": true,
     "mdx1Compat": {
       "comments": true,
       "admonitions": true,
       "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    },
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
     }
   }
 };
