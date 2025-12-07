@@ -1,0 +1,27 @@
+{
+  "id": "case-studies/figure-ai",
+  "title": "Figure AI Case Study",
+  "description": "Overview",
+  "source": "@site/docs/case-studies/figure-ai.md",
+  "sourceDirName": "case-studies",
+  "slug": "/case-studies/figure-ai",
+  "permalink": "/docs/case-studies/figure-ai",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/case-studies/figure-ai.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Boston Dynamics Atlas Case Study",
+    "permalink": "/docs/case-studies/boston-dynamics-atlas"
+  },
+  "next": {
+    "title": "Basic Control Examples",
+    "permalink": "/docs/tutorials/basic-control-examples/"
+  }
+}

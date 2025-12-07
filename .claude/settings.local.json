@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \".specify/scripts/powershell/check-prerequisites.ps1 -Json -RequireTasks -IncludeTasks\")",
+      "Bash(cmd /c \"tree /f /a\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

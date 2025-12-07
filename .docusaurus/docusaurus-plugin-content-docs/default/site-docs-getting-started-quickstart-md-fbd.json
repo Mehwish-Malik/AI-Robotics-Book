@@ -1,0 +1,27 @@
+{
+  "id": "getting-started/quickstart",
+  "title": "Quick Start Guide",
+  "description": "Get up and running with humanoid robotics concepts quickly with this hands-on introduction. This guide will walk you through your first robot simulation and control example.",
+  "source": "@site/docs/getting-started/quickstart.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/quickstart",
+  "permalink": "/docs/getting-started/quickstart",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/getting-started/quickstart.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation and Setup",
+    "permalink": "/docs/getting-started/installation"
+  },
+  "next": {
+    "title": "Chapter 1: Introduction to Humanoid Robotics",
+    "permalink": "/docs/modules/module-1-fundamentals/chapter-1-introduction"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "assets/images/placeholder",
+  "title": "Image Assets",
+  "description": "This directory contains all photographic and raster image assets for the Humanoid AI Robotics book.",
+  "source": "@site/docs/assets/images/placeholder.md",
+  "sourceDirName": "assets/images",
+  "slug": "/assets/images/placeholder",
+  "permalink": "/docs/assets/images/placeholder",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/assets/images/placeholder.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

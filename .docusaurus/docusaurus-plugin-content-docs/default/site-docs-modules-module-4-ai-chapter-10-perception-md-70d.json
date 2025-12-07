@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-4-ai/chapter-10-perception",
+  "title": "Chapter 10: Computer Vision and Perception",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-4-ai/chapter-10-perception.md",
+  "sourceDirName": "modules/module-4-ai",
+  "slug": "/modules/module-4-ai/chapter-10-perception",
+  "permalink": "/docs/modules/module-4-ai/chapter-10-perception",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-4-ai/chapter-10-perception.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 9: Balance and Stability Control",
+    "permalink": "/docs/modules/module-3-control/chapter-9-balance"
+  },
+  "next": {
+    "title": "Chapter 11: Machine Learning for Robotics",
+    "permalink": "/docs/modules/module-4-ai/chapter-11-learning"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "case-studies/tesla-optimus",
+  "title": "Tesla Optimus Case Study",
+  "description": "Overview",
+  "source": "@site/docs/case-studies/tesla-optimus.md",
+  "sourceDirName": "case-studies",
+  "slug": "/case-studies/tesla-optimus",
+  "permalink": "/docs/case-studies/tesla-optimus",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/case-studies/tesla-optimus.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 16: Case Studies and Practical Examples",
+    "permalink": "/docs/modules/module-5-applications/chapter-16-case-studies"
+  },
+  "next": {
+    "title": "Boston Dynamics Atlas Case Study",
+    "permalink": "/docs/case-studies/boston-dynamics-atlas"
+  }
+}

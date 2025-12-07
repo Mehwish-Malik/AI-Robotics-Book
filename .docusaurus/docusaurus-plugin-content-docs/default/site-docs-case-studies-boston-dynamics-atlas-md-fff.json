@@ -1,0 +1,27 @@
+{
+  "id": "case-studies/boston-dynamics-atlas",
+  "title": "Boston Dynamics Atlas Case Study",
+  "description": "Overview",
+  "source": "@site/docs/case-studies/boston-dynamics-atlas.md",
+  "sourceDirName": "case-studies",
+  "slug": "/case-studies/boston-dynamics-atlas",
+  "permalink": "/docs/case-studies/boston-dynamics-atlas",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/case-studies/boston-dynamics-atlas.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tesla Optimus Case Study",
+    "permalink": "/docs/case-studies/tesla-optimus"
+  },
+  "next": {
+    "title": "Figure AI Case Study",
+    "permalink": "/docs/case-studies/figure-ai"
+  }
+}

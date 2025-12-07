@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-4-ai/chapter-12-decision-making",
+  "title": "Chapter 12: Decision Making and Autonomy",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-4-ai/chapter-12-decision-making.md",
+  "sourceDirName": "modules/module-4-ai",
+  "slug": "/modules/module-4-ai/chapter-12-decision-making",
+  "permalink": "/docs/modules/module-4-ai/chapter-12-decision-making",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-4-ai/chapter-12-decision-making.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 11: Machine Learning for Robotics",
+    "permalink": "/docs/modules/module-4-ai/chapter-11-learning"
+  },
+  "next": {
+    "title": "Chapter 13: Simulation Environments",
+    "permalink": "/docs/modules/module-5-applications/chapter-13-simulation"
+  }
+}

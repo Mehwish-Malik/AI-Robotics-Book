@@ -1,0 +1,27 @@
+{
+  "id": "tutorials/simulation-workflows/index",
+  "title": "Simulation Workflows",
+  "description": "This section provides comprehensive tutorials on setting up, configuring, and running humanoid robot simulations. The workflows cover various simulation platforms, sensor integration, control system testing, and validation procedures.",
+  "source": "@site/docs/tutorials/simulation-workflows/index.md",
+  "sourceDirName": "tutorials/simulation-workflows",
+  "slug": "/tutorials/simulation-workflows/",
+  "permalink": "/docs/tutorials/simulation-workflows/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/tutorials/simulation-workflows/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic Control Examples",
+    "permalink": "/docs/tutorials/basic-control-examples/"
+  },
+  "next": {
+    "title": "Deployment Guides",
+    "permalink": "/docs/tutorials/deployment-guides/"
+  }
+}

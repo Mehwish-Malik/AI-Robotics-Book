@@ -1,0 +1,23 @@
+{
+  "id": "reference/hardware-specs/index",
+  "title": "Hardware Specifications",
+  "description": "This section provides detailed technical specifications for humanoid robot hardware components, including actuators, sensors, computational systems, and mechanical designs.",
+  "source": "@site/docs/reference/hardware-specs/index.md",
+  "sourceDirName": "reference/hardware-specs",
+  "slug": "/reference/hardware-specs/",
+  "permalink": "/docs/reference/hardware-specs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/reference/hardware-specs/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Code Examples",
+    "permalink": "/docs/reference/code-examples/"
+  }
+}

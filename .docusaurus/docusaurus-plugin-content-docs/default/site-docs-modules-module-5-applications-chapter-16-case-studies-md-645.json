@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-5-applications/chapter-16-case-studies",
+  "title": "Chapter 16: Case Studies and Practical Examples",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-5-applications/chapter-16-case-studies.md",
+  "sourceDirName": "modules/module-5-applications",
+  "slug": "/modules/module-5-applications/chapter-16-case-studies",
+  "permalink": "/docs/modules/module-5-applications/chapter-16-case-studies",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-5-applications/chapter-16-case-studies.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 15: Future Directions and Emerging Trends",
+    "permalink": "/docs/modules/module-5-applications/chapter-15-future-directions"
+  },
+  "next": {
+    "title": "Tesla Optimus Case Study",
+    "permalink": "/docs/case-studies/tesla-optimus"
+  }
+}

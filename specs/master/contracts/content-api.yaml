@@ -1,0 +1,305 @@
+# Content Management API for Humanoid Robotics Book
+
+## Overview
+RESTful API for managing book content including modules, chapters, code examples, diagrams, and case studies.
+
+## Base URL
+`https://api.humanoid-robotics-book.com/v1`
+
+## Authentication
+All endpoints require authentication using Bearer tokens:
+```
+Authorization: Bearer {token}
+```
+
+## Common Headers
+- `Content-Type: application/json`
+- `Accept: application/json`
+
+## API Endpoints
+
+### Modules
+
+#### List all modules
+```
+GET /modules
+```
+
+**Query Parameters:**
+- `limit` (optional): Number of items to return (default: 20, max: 100)
+- `offset` (optional): Number of items to skip (default: 0)
+- `sort` (optional): Sort field (default: order)
+
+**Response:**
+```json
+{
+  "data": [
+    {
+      "id": "mod-intro-1",
+      "title": "Introduction to Humanoid Robotics",
+      "description": "Fundamental concepts and history",
+      "order": 1,
+      "learningGoals": [
+        "Understand basic concepts",
+        "Learn about historical development"
+      ],
+      "prerequisites": [],
+      "chapterCount": 3,
+      "createdAt": "2025-01-15T10:30:00Z",
+      "updatedAt": "2025-01-15T10:30:00Z"
+    }
+  ],
+  "pagination": {
+    "limit": 20,
+    "offset": 0,
+    "total": 5
+  }
+}
+```
+
+#### Get a specific module
+```
+GET /modules/{id}
+```
+
+**Response:**
+```json
+{
+  "data": {
+    "id": "mod-intro-1",
+    "title": "Introduction to Humanoid Robotics",
+    "description": "Fundamental concepts and history",
+    "order": 1,
+    "learningGoals": [
+      "Understand basic concepts",
+      "Learn about historical development"
+    ],
+    "prerequisites": [],
+    "chapters": [
+      {
+        "id": "ch-intro-1",
+        "title": "What is Humanoid Robotics?",
+        "order": 1,
+        "estimatedReadingTime": 15
+      }
+    ],
+    "caseStudies": [
+      {
+        "id": "cs-tesla-1",
+        "title": "Tesla Optimus Case Study",
+        "company": "Tesla"
+      }
+    ],
+    "createdAt": "2025-01-15T10:30:00Z",
+    "updatedAt": "2025-01-15T10:30:00Z"
+  }
+}
+```
+
+### Chapters
+
+#### List chapters in a module
+```
+GET /modules/{moduleId}/chapters
+```
+
+**Response:**
+```json
+{
+  "data": [
+    {
+      "id": "ch-intro-1",
+      "title": "What is Humanoid Robotics?",
+      "description": "Introduction to humanoid robotics concepts",
+      "order": 1,
+      "estimatedReadingTime": 15,
+      "difficultyLevel": "beginner",
+      "learningObjectives": [
+        "Define humanoid robotics",
+        "Identify key characteristics"
+      ],
+      "keyTopics": [
+        "Definition",
+        "Applications",
+        "History"
+      ],
+      "createdAt": "2025-01-15T10:30:00Z",
+      "updatedAt": "2025-01-15T10:30:00Z"
+    }
+  ]
+}
+```
+
+#### Get a specific chapter
+```
+GET /chapters/{id}
+```
+
+**Response:**
+```json
+{
+  "data": {
+    "id": "ch-intro-1",
+    "moduleId": "mod-intro-1",
+    "title": "What is Humanoid Robotics?",
+    "description": "Introduction to humanoid robotics concepts",
+    "order": 1,
+    "estimatedReadingTime": 15,
+    "difficultyLevel": "beginner",
+    "learningObjectives": [
+      "Define humanoid robotics",
+      "Identify key characteristics"
+    ],
+    "keyTopics": [
+      "Definition",
+      "Applications",
+      "History"
+    ],
+    "content": "# What is Humanoid Robotics?\n\nHumanoid robotics is a field of robotics focused on creating robots with human-like characteristics...",
+    "codeExamples": [
+      {
+        "id": "ce-hello-1",
+        "title": "Basic Robot Control",
+        "language": "python",
+        "code": "def robot_control():\n    print('Hello, Robot!')"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": "dg-arch-1",
+        "title": "Robot Architecture",
+        "url": "/img/diagrams/robot-architecture.svg"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-basic-1",
+        "title": "Identify Components",
+        "type": "theoretical"
+      }
+    ],
+    "createdAt": "2025-01-15T10:30:00Z",
+    "updatedAt": "2025-01-15T10:30:00Z"
+  }
+}
+```
+
+### Code Examples
+
+#### Get code examples for a chapter
+```
+GET /chapters/{chapterId}/code-examples
+```
+
+**Response:**
+```json
+{
+  "data": [
+    {
+      "id": "ce-hello-1",
+      "chapterId": "ch-intro-1",
+      "title": "Basic Robot Control",
+      "description": "Simple control loop example",
+      "language": "python",
+      "code": "def robot_control():\n    print('Hello, Robot!')",
+      "explanation": "This is a basic example of a robot control function",
+      "useCase": "Simple robot initialization",
+      "createdAt": "2025-01-15T10:30:00Z",
+      "updatedAt": "2025-01-15T10:30:00Z"
+    }
+  ]
+}
+```
+
+### Case Studies
+
+#### List all case studies
+```
+GET /case-studies
+```
+
+**Response:**
+```json
+{
+  "data": [
+    {
+      "id": "cs-tesla-1",
+      "title": "Tesla Optimus Case Study",
+      "company": "Tesla",
+      "robotName": "Optimus",
+      "description": "Analysis of Tesla's humanoid robot development",
+      "technicalApproach": "AI-first approach with computer vision and neural networks",
+      "challenges": [
+        "Dexterity and manipulation",
+        "Power efficiency"
+      ],
+      "solutions": [
+        "Advanced AI for perception",
+        "Custom actuator design"
+      ],
+      "results": "Ongoing development with prototypes demonstrated",
+      "lessonsLearned": [
+        "AI integration is crucial",
+        "Hardware-software co-design needed"
+      ],
+      "relatedModules": [
+        "mod-ai-4"
+      ],
+      "createdAt": "2025-01-15T10:30:00Z",
+      "updatedAt": "2025-01-15T10:30:00Z"
+    }
+  ]
+}
+```
+
+### Search
+
+#### Search content across the book
+```
+GET /search
+```
+
+**Query Parameters:**
+- `q`: Search query string
+- `limit` (optional): Number of results to return (default: 10, max: 50)
+
+**Response:**
+```json
+{
+  "data": [
+    {
+      "id": "ch-intro-1",
+      "type": "chapter",
+      "title": "What is Humanoid Robotics?",
+      "moduleTitle": "Introduction to Humanoid Robotics",
+      "snippet": "Humanoid robotics is a field of robotics focused on creating robots with human-like characteristics...",
+      "url": "/modules/introduction/chapters/what-is-humanoid-robotics"
+    }
+  ],
+  "pagination": {
+    "limit": 10,
+    "offset": 0,
+    "total": 1
+  }
+}
+```
+
+## Error Responses
+
+All error responses follow this format:
+```json
+{
+  "error": {
+    "code": "RESOURCE_NOT_FOUND",
+    "message": "The requested resource was not found",
+    "details": "Module with id 'nonexistent' does not exist"
+  }
+}
+```
+
+## Common Error Codes
+- `RESOURCE_NOT_FOUND`: Requested resource does not exist
+- `VALIDATION_ERROR`: Request data failed validation
+- `UNAUTHORIZED`: Missing or invalid authentication
+- `RATE_LIMITED`: Request rate limit exceeded
+- `INTERNAL_ERROR`: Internal server error occurred

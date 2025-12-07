@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-5-applications/chapter-14-real-world-deployment",
+  "title": "Chapter 14: Real-World Deployment Challenges",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-5-applications/chapter-14-real-world-deployment.md",
+  "sourceDirName": "modules/module-5-applications",
+  "slug": "/modules/module-5-applications/chapter-14-real-world-deployment",
+  "permalink": "/docs/modules/module-5-applications/chapter-14-real-world-deployment",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-5-applications/chapter-14-real-world-deployment.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 13: Simulation Environments",
+    "permalink": "/docs/modules/module-5-applications/chapter-13-simulation"
+  },
+  "next": {
+    "title": "Chapter 15: Future Directions and Emerging Trends",
+    "permalink": "/docs/modules/module-5-applications/chapter-15-future-directions"
+  }
+}

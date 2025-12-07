@@ -1,0 +1,206 @@
+/**
+ * Custom CSS for Humanoid Robotics Documentation
+ */
+
+/* You can override the default Docusaurus styling here. */
+:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+}
+
+/* Diagram container styling for robotics content */
+.diagram-container {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.diagram-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.diagram-caption {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Code block enhancements for robotics code */
+.code-block-wrapper {
+  margin: 1rem 0;
+}
+
+/* Enhanced admonitions for robotics content */
+.roboto-admonition {
+  border-left: 4px solid #25c2a0;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.roboto-admonition-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Navigation enhancements */
+.navbar {
+  background-color: #242526;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Sidebar enhancements for robotics content */
+.menu {
+  font-size: 0.9rem;
+}
+
+/* Table styling for specifications */
+.doc-markdown table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.doc-markdown table th,
+.doc-markdown table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid var(--ifm-table-border-color);
+}
+
+/* Enhanced code blocks for robotics algorithms */
+.admonition {
+  margin-bottom: 1rem;
+  border-left: 0.25rem solid;
+}
+
+.admonition.note {
+  border-left-color: #25c2a0;
+}
+
+.admonition.tip {
+  border-left-color: #42d47c;
+}
+
+.admonition.warning {
+  border-left-color: #ff6b6b;
+}
+
+.admonition-caution {
+  border-left-color: #ff6b6b;
+}
+
+/* Responsive adjustments for robotics diagrams and code */
+@media (max-width: 768px) {
+  .diagram-image {
+    width: 100%;
+  }
+
+  .doc-markdown table {
+    font-size: 0.85rem;
+  }
+}
+
+/* Enhanced styling for mathematical formulas */
+.math {
+  display: block;
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+/* Custom styling for robotics equations */
+.robotics-equation {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+
+/* Enhanced links for robotics references */
+.reference-link {
+  color: #25c2a0;
+  text-decoration: none;
+}
+
+.reference-link:hover {
+  text-decoration: underline;
+}
+
+/* Custom styling for robotics figures */
+.figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.figure .caption {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Enhanced code tabs for multi-language examples */
+.tabs-container {
+  margin: 1.5rem 0;
+}
+
+.tabs {
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-item {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+
+.tab-item.active {
+  border-bottom-color: #25c2a0;
+}
+
+/* Enhanced styling for robotics-specific content */
+.hardware-spec {
+  background-color: #f0f8ff;
+  border-left: 4px solid #4a90e2;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.software-api {
+  background-color: #f0fff0;
+  border-left: 4px solid #42d47c;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.safety-warning {
+  background-color: #fff0f0;
+  border-left: 4px solid #ff6b6b;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.safety-warning .admonition-heading {
+  color: #d00;
+}

@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-2-hardware/chapter-6-control-systems",
+  "title": "Chapter 6: Control Systems and Electronics",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-2-hardware/chapter-6-control-systems.md",
+  "sourceDirName": "modules/module-2-hardware",
+  "slug": "/modules/module-2-hardware/chapter-6-control-systems",
+  "permalink": "/docs/modules/module-2-hardware/chapter-6-control-systems",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-2-hardware/chapter-6-control-systems.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 5: Sensors and Perception Hardware",
+    "permalink": "/docs/modules/module-2-hardware/chapter-5-sensors"
+  },
+  "next": {
+    "title": "Chapter 7: Motion Planning and Locomotion",
+    "permalink": "/docs/modules/module-3-control/chapter-7-motion-planning"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tutorials/deployment-guides/index",
+  "title": "Deployment Guides",
+  "description": "This section provides detailed guides for deploying humanoid robots in various environments and applications. The guides cover safety procedures, system integration, maintenance protocols, and operational best practices.",
+  "source": "@site/docs/tutorials/deployment-guides/index.md",
+  "sourceDirName": "tutorials/deployment-guides",
+  "slug": "/tutorials/deployment-guides/",
+  "permalink": "/docs/tutorials/deployment-guides/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/tutorials/deployment-guides/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Simulation Workflows",
+    "permalink": "/docs/tutorials/simulation-workflows/"
+  },
+  "next": {
+    "title": "API Reference",
+    "permalink": "/docs/reference/api-reference/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-3-control/chapter-7-motion-planning",
+  "title": "Chapter 7: Motion Planning and Locomotion",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-3-control/chapter-7-motion-planning.md",
+  "sourceDirName": "modules/module-3-control",
+  "slug": "/modules/module-3-control/chapter-7-motion-planning",
+  "permalink": "/docs/modules/module-3-control/chapter-7-motion-planning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-3-control/chapter-7-motion-planning.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 6: Control Systems and Electronics",
+    "permalink": "/docs/modules/module-2-hardware/chapter-6-control-systems"
+  },
+  "next": {
+    "title": "Chapter 8: Locomotion and Gait Control",
+    "permalink": "/docs/modules/module-3-control/chapter-8-locomotion"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "assets/diagrams/placeholder",
+              "path": "/docs/assets/diagrams/placeholder"
+            },
+            {
+              "id": "assets/images/placeholder",
+              "path": "/docs/assets/images/placeholder"
+            },
+            {
+              "id": "case-studies/boston-dynamics-atlas",
+              "path": "/docs/case-studies/boston-dynamics-atlas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "case-studies/figure-ai",
+              "path": "/docs/case-studies/figure-ai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "case-studies/tesla-optimus",
+              "path": "/docs/case-studies/tesla-optimus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/getting-started/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/overview",
+              "path": "/docs/getting-started/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/quickstart",
+              "path": "/docs/getting-started/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-1-fundamentals/chapter-1-introduction",
+              "path": "/docs/modules/module-1-fundamentals/chapter-1-introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-1-fundamentals/chapter-2-history",
+              "path": "/docs/modules/module-1-fundamentals/chapter-2-history",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-1-fundamentals/chapter-3-basic-concepts",
+              "path": "/docs/modules/module-1-fundamentals/chapter-3-basic-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-2-hardware/chapter-4-actuators",
+              "path": "/docs/modules/module-2-hardware/chapter-4-actuators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-2-hardware/chapter-5-sensors",
+              "path": "/docs/modules/module-2-hardware/chapter-5-sensors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-2-hardware/chapter-6-control-systems",
+              "path": "/docs/modules/module-2-hardware/chapter-6-control-systems",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-3-control/chapter-7-motion-planning",
+              "path": "/docs/modules/module-3-control/chapter-7-motion-planning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-3-control/chapter-8-locomotion",
+              "path": "/docs/modules/module-3-control/chapter-8-locomotion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-3-control/chapter-9-balance",
+              "path": "/docs/modules/module-3-control/chapter-9-balance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-4-ai/chapter-10-perception",
+              "path": "/docs/modules/module-4-ai/chapter-10-perception",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-4-ai/chapter-11-learning",
+              "path": "/docs/modules/module-4-ai/chapter-11-learning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-4-ai/chapter-12-decision-making",
+              "path": "/docs/modules/module-4-ai/chapter-12-decision-making",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-5-applications/chapter-13-simulation",
+              "path": "/docs/modules/module-5-applications/chapter-13-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-5-applications/chapter-14-real-world-deployment",
+              "path": "/docs/modules/module-5-applications/chapter-14-real-world-deployment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-5-applications/chapter-15-future-directions",
+              "path": "/docs/modules/module-5-applications/chapter-15-future-directions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-5-applications/chapter-16-case-studies",
+              "path": "/docs/modules/module-5-applications/chapter-16-case-studies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/api-reference/index",
+              "path": "/docs/reference/api-reference/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/code-examples/index",
+              "path": "/docs/reference/code-examples/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/hardware-specs/index",
+              "path": "/docs/reference/hardware-specs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/basic-control-examples/balance-control",
+              "path": "/docs/tutorials/basic-control-examples/balance-control"
+            },
+            {
+              "id": "tutorials/basic-control-examples/index",
+              "path": "/docs/tutorials/basic-control-examples/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/basic-control-examples/joint-control-basics",
+              "path": "/docs/tutorials/basic-control-examples/joint-control-basics"
+            },
+            {
+              "id": "tutorials/basic-control-examples/simple-locomotion",
+              "path": "/docs/tutorials/basic-control-examples/simple-locomotion"
+            },
+            {
+              "id": "tutorials/deployment-guides/index",
+              "path": "/docs/tutorials/deployment-guides/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/simulation-workflows/index",
+              "path": "/docs/tutorials/simulation-workflows/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-3-control/chapter-9-balance",
+  "title": "Chapter 9: Balance and Stability Control",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-3-control/chapter-9-balance.md",
+  "sourceDirName": "modules/module-3-control",
+  "slug": "/modules/module-3-control/chapter-9-balance",
+  "permalink": "/docs/modules/module-3-control/chapter-9-balance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-3-control/chapter-9-balance.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 8: Locomotion and Gait Control",
+    "permalink": "/docs/modules/module-3-control/chapter-8-locomotion"
+  },
+  "next": {
+    "title": "Chapter 10: Computer Vision and Perception",
+    "permalink": "/docs/modules/module-4-ai/chapter-10-perception"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-1-fundamentals/chapter-3-basic-concepts",
+  "title": "Chapter 3: Basic Concepts and Terminology",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-1-fundamentals/chapter-3-basic-concepts.md",
+  "sourceDirName": "modules/module-1-fundamentals",
+  "slug": "/modules/module-1-fundamentals/chapter-3-basic-concepts",
+  "permalink": "/docs/modules/module-1-fundamentals/chapter-3-basic-concepts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-1-fundamentals/chapter-3-basic-concepts.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: Historical Development and Evolution",
+    "permalink": "/docs/modules/module-1-fundamentals/chapter-2-history"
+  },
+  "next": {
+    "title": "Chapter 4: Actuators and Motor Systems",
+    "permalink": "/docs/modules/module-2-hardware/chapter-4-actuators"
+  }
+}

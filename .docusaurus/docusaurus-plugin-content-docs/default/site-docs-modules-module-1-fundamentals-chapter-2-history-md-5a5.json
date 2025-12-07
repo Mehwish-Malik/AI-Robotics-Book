@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-1-fundamentals/chapter-2-history",
+  "title": "Chapter 2: Historical Development and Evolution",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-1-fundamentals/chapter-2-history.md",
+  "sourceDirName": "modules/module-1-fundamentals",
+  "slug": "/modules/module-1-fundamentals/chapter-2-history",
+  "permalink": "/docs/modules/module-1-fundamentals/chapter-2-history",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-1-fundamentals/chapter-2-history.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: Introduction to Humanoid Robotics",
+    "permalink": "/docs/modules/module-1-fundamentals/chapter-1-introduction"
+  },
+  "next": {
+    "title": "Chapter 3: Basic Concepts and Terminology",
+    "permalink": "/docs/modules/module-1-fundamentals/chapter-3-basic-concepts"
+  }
+}

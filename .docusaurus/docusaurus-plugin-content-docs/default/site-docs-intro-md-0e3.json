@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Humanoid AI Robotics",
+  "description": "Welcome to the comprehensive guide on Humanoid AI Robotics. This book provides in-depth coverage of the technologies, systems, and applications that define the field of humanoid robotics.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Getting Started Overview",
+    "permalink": "/docs/getting-started/overview"
+  }
+}

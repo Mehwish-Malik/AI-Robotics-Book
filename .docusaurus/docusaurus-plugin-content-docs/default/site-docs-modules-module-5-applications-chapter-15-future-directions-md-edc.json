@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-5-applications/chapter-15-future-directions",
+  "title": "Chapter 15: Future Directions and Emerging Trends",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-5-applications/chapter-15-future-directions.md",
+  "sourceDirName": "modules/module-5-applications",
+  "slug": "/modules/module-5-applications/chapter-15-future-directions",
+  "permalink": "/docs/modules/module-5-applications/chapter-15-future-directions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-5-applications/chapter-15-future-directions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 14: Real-World Deployment Challenges",
+    "permalink": "/docs/modules/module-5-applications/chapter-14-real-world-deployment"
+  },
+  "next": {
+    "title": "Chapter 16: Case Studies and Practical Examples",
+    "permalink": "/docs/modules/module-5-applications/chapter-16-case-studies"
+  }
+}

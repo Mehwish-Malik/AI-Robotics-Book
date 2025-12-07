@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-4-ai/chapter-11-learning",
+  "title": "Chapter 11: Machine Learning for Robotics",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-4-ai/chapter-11-learning.md",
+  "sourceDirName": "modules/module-4-ai",
+  "slug": "/modules/module-4-ai/chapter-11-learning",
+  "permalink": "/docs/modules/module-4-ai/chapter-11-learning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-4-ai/chapter-11-learning.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 10: Computer Vision and Perception",
+    "permalink": "/docs/modules/module-4-ai/chapter-10-perception"
+  },
+  "next": {
+    "title": "Chapter 12: Decision Making and Autonomy",
+    "permalink": "/docs/modules/module-4-ai/chapter-12-decision-making"
+  }
+}

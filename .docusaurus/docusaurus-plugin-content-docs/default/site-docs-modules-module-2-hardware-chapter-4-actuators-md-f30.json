@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-2-hardware/chapter-4-actuators",
+  "title": "Chapter 4: Actuators and Motor Systems",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-2-hardware/chapter-4-actuators.md",
+  "sourceDirName": "modules/module-2-hardware",
+  "slug": "/modules/module-2-hardware/chapter-4-actuators",
+  "permalink": "/docs/modules/module-2-hardware/chapter-4-actuators",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-2-hardware/chapter-4-actuators.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Basic Concepts and Terminology",
+    "permalink": "/docs/modules/module-1-fundamentals/chapter-3-basic-concepts"
+  },
+  "next": {
+    "title": "Chapter 5: Sensors and Perception Hardware",
+    "permalink": "/docs/modules/module-2-hardware/chapter-5-sensors"
+  }
+}

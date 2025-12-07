@@ -1,0 +1,18 @@
+{
+  "id": "tutorials/basic-control-examples/simple-locomotion",
+  "title": "Simple Locomotion",
+  "description": "Overview",
+  "source": "@site/docs/tutorials/basic-control-examples/simple-locomotion.md",
+  "sourceDirName": "tutorials/basic-control-examples",
+  "slug": "/tutorials/basic-control-examples/simple-locomotion",
+  "permalink": "/docs/tutorials/basic-control-examples/simple-locomotion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/tutorials/basic-control-examples/simple-locomotion.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

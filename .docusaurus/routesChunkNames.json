@@ -1,0 +1,208 @@
+{
+  "/__docusaurus/debug-370": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-90-e-342"
+    }
+  },
+  "/__docusaurus/debug/config-09f": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-90-e-342"
+    }
+  },
+  "/__docusaurus/debug/content-c26": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-90-e-342"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-bdf": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-90-e-342"
+    }
+  },
+  "/__docusaurus/debug/metadata-9c9": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-90-e-342"
+    }
+  },
+  "/__docusaurus/debug/registry-7d9": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-90-e-342"
+    }
+  },
+  "/__docusaurus/debug/routes-a14": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-90-e-342"
+    }
+  },
+  "/404-da3": {
+    "__comp": "__comp---site-src-pages-404-js-6-bb-277",
+    "__context": {
+      "plugin": "plugin---404867-abf"
+    },
+    "config": "config---4045-e-9-90e"
+  },
+  "/docs-d2c": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docse-50-7c3"
+    }
+  },
+  "/docs-99a": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-398"
+  },
+  "/docs-08f": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/assets/diagrams/placeholder-90f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-assets-diagrams-placeholder-777-bf3"
+  },
+  "/docs/assets/images/placeholder-9aa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-assets-images-placeholder-4-a-2-e00"
+  },
+  "/docs/case-studies/boston-dynamics-atlas-5be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-case-studies-boston-dynamics-atlasfff-ba9"
+  },
+  "/docs/case-studies/figure-ai-3be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-case-studies-figure-aia-40-2db"
+  },
+  "/docs/case-studies/tesla-optimus-db8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-case-studies-tesla-optimus-837-05a"
+  },
+  "/docs/getting-started/installation-490": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-installation-54-f-18d"
+  },
+  "/docs/getting-started/overview-8dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-overview-7-a-9-af0"
+  },
+  "/docs/getting-started/quickstart-4c6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-quickstartfbd-5fc"
+  },
+  "/docs/intro-aed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/modules/module-1-fundamentals/chapter-1-introduction-7b6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-1-fundamentals-chapter-1-introductiona-32-4d6"
+  },
+  "/docs/modules/module-1-fundamentals/chapter-2-history-1bc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-1-fundamentals-chapter-2-history-5-a-5-d00"
+  },
+  "/docs/modules/module-1-fundamentals/chapter-3-basic-concepts-45e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-1-fundamentals-chapter-3-basic-concepts-68-f-e34"
+  },
+  "/docs/modules/module-2-hardware/chapter-4-actuators-3ac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-2-hardware-chapter-4-actuatorsf-30-271"
+  },
+  "/docs/modules/module-2-hardware/chapter-5-sensors-fdf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-2-hardware-chapter-5-sensorsa-84-52f"
+  },
+  "/docs/modules/module-2-hardware/chapter-6-control-systems-9fc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-2-hardware-chapter-6-control-systems-71-c-8f6"
+  },
+  "/docs/modules/module-3-control/chapter-7-motion-planning-510": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-3-control-chapter-7-motion-planning-647-b2a"
+  },
+  "/docs/modules/module-3-control/chapter-8-locomotion-7a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-3-control-chapter-8-locomotion-32-b-004"
+  },
+  "/docs/modules/module-3-control/chapter-9-balance-ed7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-3-control-chapter-9-balance-77-d-364"
+  },
+  "/docs/modules/module-4-ai/chapter-10-perception-c54": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-4-ai-chapter-10-perception-70-d-e33"
+  },
+  "/docs/modules/module-4-ai/chapter-11-learning-c4d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-4-ai-chapter-11-learning-93-c-fa4"
+  },
+  "/docs/modules/module-4-ai/chapter-12-decision-making-006": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-4-ai-chapter-12-decision-makinge-52-c5f"
+  },
+  "/docs/modules/module-5-applications/chapter-13-simulation-74e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-5-applications-chapter-13-simulation-42-e-432"
+  },
+  "/docs/modules/module-5-applications/chapter-14-real-world-deployment-c8f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-5-applications-chapter-14-real-world-deployment-24-b-aaa"
+  },
+  "/docs/modules/module-5-applications/chapter-15-future-directions-32f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-5-applications-chapter-15-future-directionsedc-e3f"
+  },
+  "/docs/modules/module-5-applications/chapter-16-case-studies-2a2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-5-applications-chapter-16-case-studies-645-a66"
+  },
+  "/docs/reference/api-reference/-6f9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reference-api-reference-86-b-2c1"
+  },
+  "/docs/reference/code-examples/-215": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reference-code-examples-4-e-5-a22"
+  },
+  "/docs/reference/hardware-specs/-b97": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reference-hardware-specs-5-db-c90"
+  },
+  "/docs/tutorials/basic-control-examples/-c97": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-basic-control-examples-2-a-8-103"
+  },
+  "/docs/tutorials/basic-control-examples/balance-control-bd4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-basic-control-examples-balance-control-9-f-8-0bb"
+  },
+  "/docs/tutorials/basic-control-examples/joint-control-basics-19f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-basic-control-examples-joint-control-basics-91-f-d2d"
+  },
+  "/docs/tutorials/basic-control-examples/simple-locomotion-dd1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-basic-control-examples-simple-locomotion-96-a-ff3"
+  },
+  "/docs/tutorials/deployment-guides/-3fd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-deployment-guides-d-1-f-731"
+  },
+  "/docs/tutorials/simulation-workflows/-4e7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-simulation-workflows-bf-8-e01"
+  },
+  "/-876": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---404867-abf"
+    },
+    "config": "config---4045-e-9-90e"
+  }
+}

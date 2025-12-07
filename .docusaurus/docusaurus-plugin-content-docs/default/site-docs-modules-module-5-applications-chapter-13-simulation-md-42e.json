@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-5-applications/chapter-13-simulation",
+  "title": "Chapter 13: Simulation Environments",
+  "description": "Summary",
+  "source": "@site/docs/modules/module-5-applications/chapter-13-simulation.md",
+  "sourceDirName": "modules/module-5-applications",
+  "slug": "/modules/module-5-applications/chapter-13-simulation",
+  "permalink": "/docs/modules/module-5-applications/chapter-13-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/modules/module-5-applications/chapter-13-simulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 12: Decision Making and Autonomy",
+    "permalink": "/docs/modules/module-4-ai/chapter-12-decision-making"
+  },
+  "next": {
+    "title": "Chapter 14: Real-World Deployment Challenges",
+    "permalink": "/docs/modules/module-5-applications/chapter-14-real-world-deployment"
+  }
+}

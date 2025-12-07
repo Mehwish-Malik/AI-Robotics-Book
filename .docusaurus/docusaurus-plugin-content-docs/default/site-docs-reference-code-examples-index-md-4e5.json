@@ -1,0 +1,27 @@
+{
+  "id": "reference/code-examples/index",
+  "title": "Code Examples",
+  "description": "This section provides practical code examples for implementing humanoid robotics concepts. The examples cover control systems, sensor integration, AI algorithms, and complete implementation patterns.",
+  "source": "@site/docs/reference/code-examples/index.md",
+  "sourceDirName": "reference/code-examples",
+  "slug": "/reference/code-examples/",
+  "permalink": "/docs/reference/code-examples/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/reference/code-examples/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API Reference",
+    "permalink": "/docs/reference/api-reference/"
+  },
+  "next": {
+    "title": "Hardware Specifications",
+    "permalink": "/docs/reference/hardware-specs/"
+  }
+}

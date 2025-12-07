@@ -1,0 +1,15 @@
+{
+  "id": "assets/diagrams/placeholder",
+  "title": "Diagram Assets",
+  "description": "This directory contains all technical diagrams and illustrations for the Humanoid AI Robotics book.",
+  "source": "@site/docs/assets/diagrams/placeholder.md",
+  "sourceDirName": "assets/diagrams",
+  "slug": "/assets/diagrams/placeholder",
+  "permalink": "/docs/assets/diagrams/placeholder",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/humanoid-robotics/humanoid-robotics-book/edit/main/docs/assets/diagrams/placeholder.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
