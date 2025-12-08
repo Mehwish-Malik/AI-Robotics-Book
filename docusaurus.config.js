@@ -7,12 +7,11 @@ const config = {
   tagline: 'A Comprehensive Guide to Building Humanoid Robots',
   favicon: 'img/favicon.ico',
 
-  // 🌐 GitHub Pages Deployment Config
-  url: 'https://Mehwish-Malik.github.io',
-  baseUrl: '/AI-Robotics-Book/',
+  // 🌐 Correct config for Vercel Deployment
+  url: 'https://ai-robotics-book.vercel.app', // You can update this after deploy
+  baseUrl: '/',
   organizationName: 'Mehwish-Malik',
   projectName: 'AI-Robotics-Book',
-  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',

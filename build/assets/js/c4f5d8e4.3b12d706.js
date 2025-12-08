@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkhumanoid_robotics_book=globalThis.webpackChunkhumanoid_robotics_book||[]).push([[634],{192:(o,u,c)=>{c.r(u),c.d(u,{default:()=>t});var n=c(6540),s=c(6347);function t(){const o=(0,s.W6)();return(0,n.useEffect)(()=>{o.replace("/docs/intro")},[o]),null}}}]);

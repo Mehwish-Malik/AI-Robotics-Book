@@ -7,12 +7,11 @@ export default {
   "title": "Humanoid AI Robotics",
   "tagline": "A Comprehensive Guide to Building Humanoid Robots",
   "favicon": "img/favicon.ico",
-  "url": "https://humanoid-robotics-book.com",
+  "url": "https://ai-robotics-book.vercel.app",
   "baseUrl": "/",
   "organizationName": "Mehwish-Malik",
   "projectName": "AI-Robotics-Book",
   "trailingSlash": false,
-  "deploymentBranch": "gh-pages",
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",
@@ -43,6 +42,7 @@ export default {
     "navbar": {
       "title": "🚀 Humanoid Robotics",
       "hideOnScroll": true,
+      "style": "dark",
       "items": [
         {
           "type": "docSidebar",
@@ -51,13 +51,12 @@ export default {
           "label": "📖 Book"
         },
         {
-          "href": "https://github.com/humanoid-robotics/humanoid-robotics-book",
+          "href": "https://github.com/Mehwish-Malik/AI-Robotics-Book",
           "label": "GitHub",
           "position": "right",
           "className": "button button--primary"
         }
-      ],
-      "style": "dark"
+      ]
     },
     "footer": {
       "style": "dark",
@@ -93,7 +92,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/humanoid-robotics/humanoid-robotics-book"
+              "href": "https://github.com/Mehwish-Malik/AI-Robotics-Book"
             },
             {
               "label": "Research Papers",
