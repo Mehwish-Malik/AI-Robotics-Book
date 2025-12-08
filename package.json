@@ -11,8 +11,7 @@
     "clear": "npm run docusaurus -- clear",
     "serve": "npm run docusaurus -- serve",
     "write-translations": "npm run docusaurus -- write-translations",
-    "write-heading-ids": "npm run docusaurus -- write-heading-ids",
-    "vercel-build": "npm install && npm run build"
+    "write-heading-ids": "npm run docusaurus -- write-heading-ids"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
