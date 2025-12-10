@@ -1,23 +1,93 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
+.hero {
   text-align: center;
-  position: relative;
+  padding: 40px 20px 80px 20px; /* reduced top padding */
+  background: linear-gradient(120deg, #0a1f44, #001f2e);
+  color: white;
   overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
+  position: relative;
+  min-height: 100vh; /* ensures hero takes full viewport height */
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* align items at top */
   align-items: center;
-  justify-content: center;
+}
+
+.heroImage {
+  max-width: 350px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  margin-bottom: 30px;
+  animation: float 6s ease-in-out infinite;
+  transition: transform 0.3s ease;
+  margin-top: -20px; /* move image slightly upwards */
+}
+
+.heroImage:hover {
+  transform: scale(1.05);
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(90deg, #00bfff, #009acd);
+  
+  /* Add standard property for compatibility */
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 0 auto 2rem auto;
+  max-width: 600px;
+  line-height: 1.5;
+  color: #d0e6ff;
+}
+
+.button {
+  background: #00bfff;
+  padding: 14px 28px;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+  background: #009acd;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.6);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .heroImage {
+    max-width: 200px;
+    margin-top: -10px; /* adjust negative margin on mobile */
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .button {
+    padding: 14px 28px;
+    font-size: 1.1rem;
+  }
 }

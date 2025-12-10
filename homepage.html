@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humonoid Robotics AI - Learn About the Future of AI and Robotics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0a192f;
+            --secondary: #112240;
+            --accent: #64ffda;
+            --text-primary: #ccd6f6;
+            --text-secondary: #8892b0;
+            --card-bg: rgba(17, 34, 64, 0.8);
+            --hover-accent: #4db8aa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+        }
+
+        .book-cover {
+            width: 250px;
+            height: 350px;
+            background: linear-gradient(45deg, #1e3a8a, #3b82f6, #60a5fa);
+            border-radius: 12px;
+            margin: 0 auto 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .book-cover::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, transparent 20%, var(--accent) 20%, var(--accent) 80%, transparent 80%);
+            background-size: 100px 100px;
+            animation: rotate 10s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .book-cover-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .book-cover h2 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .book-cover p {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, var(--accent), #00d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+
+        .description {
+            max-width: 700px;
+            margin: 0 auto 3rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: linear-gradient(45deg, var(--accent), #00d4ff);
+            color: var(--primary);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 10px 25px rgba(100, 255, 218, 0.3);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(100, 255, 218, 0.4);
+            background: linear-gradient(45deg, var(--hover-accent), #00b3d9);
+        }
+
+        .modules-section {
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            background: linear-gradient(45deg, var(--accent), #00d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .modules-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .module-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(100, 255, 218, 0.1);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .module-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border-color: rgba(100, 255, 218, 0.3);
+        }
+
+        .module-number {
+            font-size: 3rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        .module-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+
+        .module-desc {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .module-link {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: rgba(100, 255, 218, 0.1);
+            color: var(--accent);
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            border: 1px solid var(--accent);
+        }
+
+        .module-link:hover {
+            background: rgba(100, 255, 218, 0.2);
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            border-top: 1px solid rgba(100, 255, 218, 0.1);
+            color: var(--text-secondary);
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .tagline {
+                font-size: 1.2rem;
+            }
+
+            .book-cover {
+                width: 200px;
+                height: 280px;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 2rem 1rem;
+                min-height: 90vh;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .book-cover {
+                width: 150px;
+                height: 210px;
+            }
+
+            .modules-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Animation for the book cover */
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Humonoid Robotics AI</h1>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="book-cover floating">
+                    <div class="book-cover-content">
+                        <h2>Humonoid<br>Robotics AI</h2>
+                        <p>The Future of Technology</p>
+                    </div>
+                </div>
+
+                <h1>Humonoid Robotics AI</h1>
+                <p class="tagline">Exploring the intersection of artificial intelligence and humanoid robotics</p>
+
+                <p class="description">
+                    Dive deep into the revolutionary world of humanoid robotics and artificial intelligence.
+                    This comprehensive guide covers everything from basic principles to advanced applications,
+                    preparing you for the technological revolution that's reshaping our world.
+                </p>
+
+                <a href="book.html" class="btn">Start Reading</a>
+            </section>
+
+            <section class="modules-section">
+                <h2 class="section-title">Learning Modules</h2>
+                <div class="modules-grid">
+                    <div class="module-card">
+                        <div class="module-number">01</div>
+                        <h3 class="module-title">Introduction to AI</h3>
+                        <p class="module-desc">
+                            Fundamentals of artificial intelligence, machine learning basics, and neural networks.
+                        </p>
+                        <a href="module1.html" class="module-link">View Module</a>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-number">02</div>
+                        <h3 class="module-title">Robotics Foundations</h3>
+                        <p class="module-desc">
+                            Mechanical engineering principles, sensors, actuators, and control systems for robots.
+                        </p>
+                        <a href="module2.html" class="module-link">View Module</a>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-number">03</div>
+                        <h3 class="module-title">Humanoid Design</h3>
+                        <p class="module-desc">
+                            Biomechanics, kinematics, and design principles for creating human-like robots.
+                        </p>
+                        <a href="module3.html" class="module-link">View Module</a>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-number">04</div>
+                        <h3 class="module-title">AI Integration</h3>
+                        <p class="module-desc">
+                            Integrating AI systems with robotic hardware for intelligent behavior and interaction.
+                        </p>
+                        <a href="module4.html" class="module-link">View Module</a>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-number">05</div>
+                        <h3 class="module-title">Future Applications</h3>
+                        <p class="module-desc">
+                            Real-world applications, ethical considerations, and the future of human-robot interaction.
+                        </p>
+                        <a href="module5.html" class="module-link">View Module</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Humonoid Robotics AI. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

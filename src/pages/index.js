@@ -1,15 +1,29 @@
+import React from "react";
+import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
+import styles from "./index.module.css";
 
-import React, { useEffect } from 'react';
-import { useHistory } from '@docusaurus/router';
+// Hero image (put one good image in static/img/)
+const heroImage = "/img/ai.png";
 
 export default function Home() {
-  const history = useHistory();
+  return (
+    <Layout title="Humanoid Robotics AI" description="AI Robotics Book">
+      <div className={styles.hero}>
+        {/* Large hero image */}
+        <img
+          src={heroImage}
+          alt="Humanoid Robotics AI Book"
+          className={styles.heroImage}
+        />
 
-  useEffect(() => {
-    // Redirect to first docs page
-    history.replace('/docs/intro');
-  }, [history]);
+        <h1>Humanoid Robotics AI</h1>
+        <p>Explore the world of Artificial Intelligence, Robotics, and Human-Machine Intelligence.</p>
 
-  return null; // Nothing renders on homepage
+        <Link className={styles.button} to="/docs/intro">
+          Start Reading
+        </Link>
+      </div>
+    </Layout>
+  );
 }
-
